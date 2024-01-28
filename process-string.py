@@ -19,9 +19,9 @@
 
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-start, end = alphabet.split('-')
 user_range = input("Enter a range of letters (e.g., a-z): ")
 
+<<<<<<< HEAD
 def repeat_chars(string):
     result = ""
     for char in string:
@@ -30,3 +30,6 @@ def repeat_chars(string):
 print(repeat_chars("String"))      # Output: "SSttrriinngg"
 print(repeat_chars("Hello World")) # Output: "HHeelllloo WWoorrlldd"
 print(repeat_chars("1234!_ "))     # Output: "11223344!!__ "
+=======
+
+>>>>>>> 93130f284b9994d68d12d0ad5fe4c1726a826dbe
