@@ -22,7 +22,7 @@ def range_letters(string):
             result += chr(char)
     return result.upper() if start.isupper() else result.lower()
 
-print(range_letters("a-z"))  # Output: "abcdefghijklmnopqrstuvwxyz"
-print(range_letters("h-o"))  # Output: "hijklmno"
+print(range_letters("a-z"))  # Output: "abcdefghijklnopqrstuvwxyz"
+print(range_letters("h-o"))  # Output: "hijklno"
 print(range_letters("Q-Z"))  # Output: "QRSTUVWXYZ"
 print(range_letters("J-J"))  # Output: "J"
