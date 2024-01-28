@@ -6,9 +6,9 @@ def repeat_chars(string):
     for char in string:
         result += char * 2
     return result
-print(repeat_chars("String"))      # Output: "SSttrriinngg"
-print(repeat_chars("Hello World")) # Output: "HHeelllloo WWoorrlldd"
-print(repeat_chars("1234!_ "))     # Output: "11223344!!__ "
+print(repeat_chars("String"))      
+print(repeat_chars("Hello World")) 
+print(repeat_chars("1234!_ "))     
 
 #application 2
 def range_letters(string):
@@ -22,7 +22,7 @@ def range_letters(string):
             result += chr(char)
     return result.upper() if start.isupper() else result.lower()
 
-print(range_letters("a-z"))  # Output: "abcdefghijklnopqrstuvwxyz"
-print(range_letters("h-o"))  # Output: "hijklno"
-print(range_letters("Q-Z"))  # Output: "QRSTUVWXYZ"
-print(range_letters("J-J"))  # Output: "J"
+print(range_letters("a-z")) 
+print(range_letters("h-o"))  
+print(range_letters("Q-Z")) 
+print(range_letters("J-J")) 
